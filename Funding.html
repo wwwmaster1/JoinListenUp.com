@@ -4,21 +4,24 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+	
 <style>
-	* { box-sizing: border-box; }
+* { box-sizing: border-box; }
 
 /* inherit height from window */
-html, body, .grid { height: 100%; width: 100%; margin: 0; }
+html, body, .grid { height: 100%; width: 100%; margin: 0vw; }
 
 body { font-family: sans-serif; font-size: 10px;  font-size: calc(.45vh + .85vw + 3px);}
 
-h1 { font-size: 15px;  font-size: calc(.5vh + 1.5vw + 6px);}
+h1 { font-size: 15px;  font-size: calc(.5vh + 1.5vw + 6px); margin:2vw;}
+h4 { font-size: 11px;  font-size: calc(.2vh + 1.1vw + 6px); margin:2vw;}
 
 /* ---- grid ---- */
 
 .grid {
-  width: 100vw;
-  height: 300vw; /* inherit height from body */
+  width: 90vw;
+  min-height: 300vw; /* inherit height from body */
+  margin: auto;
 }
 
 /* clear fix */
@@ -26,14 +29,13 @@ h1 { font-size: 15px;  font-size: calc(.5vh + 1.5vw + 6px);}
   content: '';
   display: block;
   clear: both;
-  
 }
 
 /* ---- .grid-item ---- */
 
 .grid-item {
   float: left;
-  width: 10vw;
+  width: 9vw;
   height: 10vw;
   padding: 5px;
   margin: 0px;
@@ -43,13 +45,38 @@ h1 { font-size: 15px;  font-size: calc(.5vh + 1.5vw + 6px);}
   border-radius: 1vw;
 }
 
-.grid-item--width2 { width: 20vw; }
+.grid-item--width2 { width: 18vw; }
 .grid-item--height2 { height: 20vw; }
-.grid-item--width3 { width: 30vw; }
+.grid-item--width3 { width: 27vw; }
 .grid-item--height3 { height: 30vw; }
-.grid-item--width4 { width: 40vw; }
+.grid-item--width4 { width: 36vw; }
 .grid-item--height4 { height: 40vw; }
 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 850px)  {
+body { font-size: calc(.45vh + 1vw + 3px);}
+.grid-item--width2 { width: 30vw; }
+.grid-item--width3 { width: 60vw; }
+.grid-item--width4 { width: 90vw; }	
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 650px) {
+body { font-size: calc(.45vh + 2vw + 3px);}
+.grid-item--width2 { width: 90vw; }
+.grid-item--width3 { width: 90vw; }
+.grid-item--width4 { width: 90vw; }	
+}
+	
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1300px)  {
+body { font-size: calc(.25vh + 1vw + 1px);}
+.grid-item--width2 { width: 9vw; }
+.grid-item--width3 { width: 18vw; }
+.grid-item--width4 { width: 27vw; }	
+}
+	
 .grid-item:nth-child(10n+0) { background: hsl(   0, 100%, 50%); }
 .grid-item:nth-child(10n+1) { background: hsl(  36, 100%, 50%); }
 .grid-item:nth-child(10n+2) { background: hsl(  72, 100%, 50%); }
@@ -64,36 +91,49 @@ h1 { font-size: 15px;  font-size: calc(.5vh + 1.5vw + 6px);}
 </style>
 
 </head>	
-<body>
-<h1>12-16 Month Runway for Global Deployment of ListenUp!</h1>
-<h4>Each cell represents a proportional multiple of $50K budget blocks.</h4>
+	<body>
+		<h1>12-16 Month Runway for Global Deployment of ListenUp!</h1>
+		<h4>Each cell represents a proportional multiple of $50K budget blocks.</h4>
+		<div class="grid">
+		  <div class="grid-item grid-item--width2 grid-item--height4">8 app development [Sachin & bounty]</div>
+		  <div class="grid-item grid-item--width2 grid-item--height3">6 web development [Shabazz & bounty]</div>
+		  <div class="grid-item grid-item--width2">2 legal, securities, accounting, insurance [Firms]</div>
+		  <div class="grid-item grid-item--width2">2 app store optimization [Agency]</div>
+		  <div class="grid-item grid-item--width2 grid-item--height3">6 cloud infrastructure/analytics [amazon]</div>
+		  <div class="grid-item grid-item--width2">2 security & privacy audits [Agency]</div>
+		  <div class="grid-item grid-item--height2 grid-item--width2">4 data collection & live tour encoding & api [internal, upwork]</div>
+		  <div class="grid-item grid-item--width2">2 quality assurance testing [upwork,local]</div>
+		  <div class="grid-item grid-item--width4">4 social Presence & Profiles [Agency, upwork]</div>
+		  <div class="grid-item grid-item--width2 grid-item--height2">4 acquisitions (web properties, etc) [flippa, internal]</div>
+		  <div class="grid-item grid-item--width2 grid-item--height2">4 design [Denis & upwork]</div>
+		  <div class="grid-item grid-item--width2 grid-item--height2">4 localization and translation [Connie & upwork]</div>
+		  <div class="grid-item grid-item--width2 grid-item--height2">4 publicity [upwork, haro, flipboard, agency]</div>
+		  <div class="grid-item grid-item--width2 grid-item--height2">4 support, training [Pex & PCX team]</div>
+		  <div class="grid-item grid-item--width2 grid-item--height3">6 ad sales [Eric & team]</div>    
+		  <div class="grid-item grid-item--width2 grid-item--height2">4 administrative, ops, hr [internal]</div>
+		  <div class="grid-item grid-item--width2 grid-item--height3">6 A.I., R&D [internal, upwork]</div>
+		  <div class="grid-item grid-item--width2">2 devices for testing [apple, samsung]</div>
+		  <div class="grid-item grid-item--width4">4 travel [internal]</div>
+		  <div class="grid-item grid-item--width2">2 tourism industry C.I. [Carlo & internal]</div>
+		  <div class="grid-item grid-item--width2 grid-item--height4">8 growth team [gorilla, upwork, etc.]</div>
+		  <div class="grid-item grid-item--width2 grid-item--height3">6 local promo (qr, hotel) [internal, upwork, gorilla, promo]</div>
+		  <div class="grid-item grid-item--width2 grid-item--height4">8 content [Silvia & upwork]</div>
+		  <div class="grid-item grid-item--width2">2 name & branding [agency, godaddy/uni]</div>
+		  <div class="grid-item grid-item--height3  grid-item--width2">6 founder salaries</div>
+		  <div class="grid-item grid-item--width2">2 computers, software, subscriptions, registrations [git, apple, dns, etc]</div>
+		</div>
+	</body>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+	<script src="https://npmcdn.com/isotope-masonry-horizontal@2/masonry-horizontal.js"></script>
+	<script>
+	$('.grid').isotope({
+	  layoutMode: 'masonry',
+	  itemSelector: '.grid-item'
+	});
 
-<div class="grid">
-  <div class="grid-item grid-item--width2 grid-item--height4">8 app development [Sachin & bounty]</div>
-  <div class="grid-item grid-item--width2 grid-item--height3">6 web development [Shabazz & bounty]</div>
-  <div class="grid-item grid-item--width2">2 legal, securities, accounting, insurance [Firms]</div>
-  <div class="grid-item grid-item--width2">2 app store optimization [Agency]</div>
-  <div class="grid-item grid-item--width2 grid-item--height3">6 cloud infrastructure/analytics [amazon]</div>
-  <div class="grid-item grid-item--width2">2 security & privacy audits [Agency]</div>
-  <div class="grid-item grid-item--height2 grid-item--width2">4 data collection & live tour encoding & api [internal, upwork]</div>
-  <div class="grid-item grid-item--width2">2 quality assurance testing [upwork,local]</div>
-  <div class="grid-item grid-item--width4">4 social Presence & Profiles [Agency, upwork]</div>
-  <div class="grid-item grid-item--width2 grid-item--height2">4 acquisitions (web properties, etc) [flippa, internal]</div>
-  <div class="grid-item grid-item--width2 grid-item--height2">4 design [Denis & upwork]</div>
-  <div class="grid-item grid-item--width2 grid-item--height2">4 localization and translation [Connie & upwork]</div>
-  <div class="grid-item grid-item--width2 grid-item--height2">4 publicity [upwork, haro, flipboard, agency]</div>
-  <div class="grid-item grid-item--width2 grid-item--height2">4 support, training [Pex & PCX team]</div>
-  <div class="grid-item grid-item--width2 grid-item--height3">6 ad sales [Eric & team]</div>    
-  <div class="grid-item grid-item--width2 grid-item--height2">4 administrative, ops, hr [internal]</div>
-  <div class="grid-item grid-item--width2 grid-item--height3">6 A.I., R&D [internal, upwork]</div>
-  <div class="grid-item grid-item--width2">2 devices for testing [apple, samsung]</div>
-  <div class="grid-item grid-item--width4">4 travel [internal]</div>
-  <div class="grid-item grid-item--width2">2 tourism industry C.I. [Carlo & internal]</div>
-  <div class="grid-item grid-item--width2 grid-item--height4">8 growth team [gorilla, upwork, etc.]</div>
-  <div class="grid-item grid-item--width2 grid-item--height3">6 local promo (qr, hotel) [internal, upwork, gorilla, promo]</div>
-  <div class="grid-item grid-item--width2 grid-item--height4">8 content [Silvia & upwork]</div>
-  <div class="grid-item grid-item--width2">2 name & branding [agency, godaddy/uni]</div>
-  <div class="grid-item grid-item--height3  grid-item--width2">6 founder salaries</div>
-  <div class="grid-item grid-item--width2">2 computers, software, subscriptions, registrations [git, apple, dns, etc]</div>
-</div>
-</body></html>
+	//$('.grid').isotope('shuffle');
+	</script>
+	
+</html>
