@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:America/Phoenix
+X-LIC-LOCATION:America/Phoenix
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0700
+TZNAME:MST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Phoenix:20231006T100000
+DTEND;TZID=America/Phoenix:20231006T113000
+DTSTAMP:20231004T173515Z
+ORGANIZER;CN=igor.ilyinsky@firmwise.net:mailto:igor.ilyinsky@firmwise.net
+UID:4mjcfittlmr82e5eo6so964mba@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=igor.ilyinsky@gmail.com;X-NUM-GUESTS=0:mailto:igor.ilyinsky@gmail.c
+ om
+X-GOOGLE-CONFERENCE:https://meet.google.com/oac-nijk-gne
+X-MICROSOFT-CDO-OWNERAPPTID:-282500640
+CREATED:20231004T173323Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/oa
+ c-nijk-gne\nOr dial: (US) +1 470-228-6273 PIN: 199218151#\nMore phone numbe
+ rs: https://tel.meet/oac-nijk-gne?pin=2475718108971&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20231004T173511Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Unlock AI's Power in Tourism: Stay Ahead with ListenUp in AZ
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
