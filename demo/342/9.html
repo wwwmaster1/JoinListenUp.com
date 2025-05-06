@@ -14,7 +14,7 @@
       height: auto;
       display: block;
       cursor: pointer;
-      margin-top: -8px;
+      margin-top: -18px;
     }
   </style>
 </head>
@@ -32,11 +32,11 @@
       if (!isPlaying) {
         img.src = 'HRP_2.png';
         audio.play();
-        window.scrollTo(0, 20);
+        window.scrollTo(0, 10);
       } else {
         img.src = 'HRP_1.png';
         audio.pause();
-        window.scrollTo(0, 0);
+        window.scrollTo(0, 1);
       }
       isPlaying = !isPlaying;
     });
