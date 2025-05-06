@@ -12,7 +12,7 @@
       margin: 0;
       padding: 0;
       background-color: #000;
-      padding-bottom: 1000px;
+      padding-bottom: 2000px;
     }
     img {
       width: 100%;
@@ -39,11 +39,11 @@
       if (!isPlaying) {
         img.src = 'HRP_2.png';
         audio.play();
-        window.scrollTo(0, 2);
+        window.scrollTo(0, 1000);
       } else {
         img.src = 'HRP_1.png';
         audio.pause();
-        window.scrollTo(0, 1);
+        window.scrollTo(0, 999);
       }
       isPlaying = !isPlaying;
     });
