@@ -24,10 +24,6 @@
 
  
   <script>
-    window.onload = function() {
-      window.scrollTo(0, 20);
-    };
-    
     const img = document.getElementById('toggleImage');
     const audio = document.getElementById('audio');
     let isPlaying = false;
@@ -36,6 +32,7 @@
       if (!isPlaying) {
         img.src = 'HRP_2.png';
         audio.play();
+        window.scrollTo(0, 20);
       } else {
         img.src = 'HRP_1.png';
         audio.pause();
