@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>ListenUp Demo HRP</title>
   <style>
     body {
@@ -21,17 +22,31 @@
   <img id="toggleImage" src="HRP_1.png" alt="Image">
   <audio id="audio" src="HRP.mp3"></audio>
 
+ 
   <script>
+    window.onload = function() {
+      window.scrollTo(0, 1);
+    };
+    
     const img = document.getElementById('toggleImage');
     const audio = document.getElementById('audio');
-    let clicked = false;
+    let isPlaying = false;
 
     img.addEventListener('click', () => {
-      if (!clicked) {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().catch(err => {
+          console.warn("Fullscreen failed:", err);
+        });
+      }
+
+      if (!isPlaying) {
         img.src = 'HRP_2.png';
         audio.play();
-        clicked = true;
+      } else {
+        img.src = 'HRP_1.png';
+        audio.pause();
       }
+      isPlaying = !isPlaying;
     });
   </script>
 </body>
