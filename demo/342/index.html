@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Click Audio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <img id="toggleImage" src="HRP1.png" alt="Image">
+  <audio id="audio" src="HRP.mp3"></audio>
 
+  <script>
+    const img = document.getElementById('toggleImage');
+    const audio = document.getElementById('audio');
+    let clicked = false;
+
+    img.addEventListener('click', () => {
+      if (!clicked) {
+        img.src = 'HRP2.png';
+        audio.play();
+        clicked = true;
+      }
+    });
+  </script>
+</body>
+</html>
