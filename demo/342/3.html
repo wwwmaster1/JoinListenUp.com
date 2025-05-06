@@ -33,12 +33,6 @@
     let isPlaying = false;
 
     img.addEventListener('click', () => {
-      if (!document.fullscreenElement) {
-        document.documentElement.requestFullscreen().catch(err => {
-          console.warn("Fullscreen failed:", err);
-        });
-      }
-
       if (!isPlaying) {
         img.src = 'HRP_2.png';
         audio.play();
