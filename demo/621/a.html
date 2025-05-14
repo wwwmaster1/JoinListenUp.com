@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  
+  <title>ListenUp Demo HASS</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      padding-bottom: 2000px;
+    }
+    img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      display: block;
+      cursor: pointer;
+      margin-top: -28px;
+      position: fixed;
+    }
+  </style>
+</head>
+<body>
+  <img id="toggleImage" src="HASS_1.png" alt="Image">
+  <audio id="audio" src="HASS.mp3"></audio>
+
+                            
+ 
+  <script>
+    const img = document.getElementById('toggleImage');
+    const audio = document.getElementById('audio');
+    let isPlaying = false;
+
+    img.addEventListener('click', () => {
+      if (!isPlaying) {
+        img.src = 'HASS_2.png';
+        audio.play();
+        window.scrollTo(0, 1000);
+      } else {
+        img.src = 'HASS_1.png';
+        audio.pause();
+        window.scrollTo(0, 999);
+      }
+      isPlaying = !isPlaying;
+    });
+  </script>
+</body>
+</html>
