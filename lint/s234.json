@@ -1,81 +1,83 @@
 {
-  "dataSet": "jss",
+  "data": "jss",
   "schema": "jssFeed_1.0",
-  "series": [
-    {
-      "name": "Fahrenheit 451 Audiobook by Ray Bradbury",
-      "image": "https://dailyaudiobooks.net/wp-content/uploads/2022/06/41qI9quGIdL._SX324_BO1204203200.jpg",
-      "languageID": "1",
-      "tags": "Fahrenheit 451,Audiobook,Ray Bradbury",
-      "datatypeID": "4",
-      "credit": "Ray Bradbury",
-      "features": [
-        {
-          "name": "Fahrenheit 451 Audiobook by Ray Bradbury",
-          "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Fahrenheit_451_1st_ed_cover.jpg/250px-Fahrenheit_451_1st_ed_cover.jpg",
-          "languageID": "1",
-          "tags": "Fahrenheit 451,Audiobook,Ray Bradbury",
-          "datatypeID": "4",
-          "credit": "Ray Bradbury",
-          "summary":"Fahrenheit 451 is a 1953 dystopian novel by American writer Ray Bradbury. It presents a futuristic American dystopian society where independent thought is discouraged and books are outlawed, Guy Montag, a fireman who's job it is to burn them, begins to question his role and the nature of his society. Motivated by the kindness of Clarisse and the knowledge gained from stolen books, Montag rebels against the oppressive regime, ultimately finding a new community of intellectuals who preserve knowledge and hope for the future. Montag's journey highlights the dangers of censorship and the importance of intellectual freedom and critical thinking.",
-          "assets": [
-            {
-              "languageID": "1",
-              "name": "Part 1",
-              "url": "https://ipaudio4.com/wp-content/uploads/BIG/Fahrenheit%20451/01.mp3",
-              "mediatype": "mp3",
-              "datatypeID": "4",
-              "duration": "",
-              "script": ""
-            },
-            {
-              "languageID": "1",
-              "name": "Part 2",
-              "url": "https://ipaudio4.com/wp-content/uploads/BIG/Fahrenheit%20451/02.mp3",
-              "mediatype": "mp3",
-              "datatypeID": "4",
-              "duration": "",
-              "script": ""
-            },
-            {
-              "languageID": "1",
-              "name": "Part 3",
-              "url": "https://ipaudio4.com/wp-content/uploads/BIG/Fahrenheit%20451/03.mp3",
-              "mediatype": "mp3",
-              "datatypeID": "4",
-              "duration": "",
-              "script": ""
-            },
-            {
-              "languageID": "1",
-              "name": "Part 4",
-              "url": "https://ipaudio4.com/wp-content/uploads/BIG/Fahrenheit%20451/04.mp3",
-              "mediatype": "mp3",
-              "datatypeID": "4",
-              "duration": "",
-              "script": ""
-            },
-            {
-              "languageID": "1",
-              "name": "Part 5",
-              "url": "https://ipaudio4.com/wp-content/uploads/BIG/Fahrenheit%20451/05.mp3",
-              "mediatype": "mp3",
-              "datatypeID": "4",
-              "duration": "",
-              "script": ""
-            },
-            {
-              "languageID": "1",
-              "name": "Part 6",
-              "url": "https://ipaudio4.com/wp-content/uploads/BIG/Fahrenheit%20451/06.mp3",
-              "mediatype": "mp3",
-              "datatypeID": "4",
-              "duration": "",
-              "script": ""
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "feed": {
+    "series": [
+      {
+        "name": "Fahrenheit 451 Audiobook by Ray Bradbury",
+        "image": "https://dailyaudiobooks.net/wp-content/uploads/2022/06/41qI9quGIdL._SX324_BO1204203200.jpg",
+        "languageID": "1",
+        "tags": "Fahrenheit 451,Audiobook,Ray Bradbury",
+        "datatypeID": "4",
+        "credit": "Ray Bradbury",
+        "features": [
+          {
+            "name": "Fahrenheit 451 Audiobook by Ray Bradbury",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Fahrenheit_451_1st_ed_cover.jpg/250px-Fahrenheit_451_1st_ed_cover.jpg",
+            "languageID": "1",
+            "tags": "Fahrenheit 451,Audiobook,Ray Bradbury",
+            "datatypeID": "4",
+            "credit": "Ray Bradbury",
+            "summary":"Fahrenheit 451 is a 1953 dystopian novel by American writer Ray Bradbury. It presents a futuristic American dystopian society where independent thought is discouraged and books are outlawed, Guy Montag, a fireman who's job it is to burn them, begins to question his role and the nature of his society. Motivated by the kindness of Clarisse and the knowledge gained from stolen books, Montag rebels against the oppressive regime, ultimately finding a new community of intellectuals who preserve knowledge and hope for the future. Montag's journey highlights the dangers of censorship and the importance of intellectual freedom and critical thinking.",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Part 1",
+                "url": "https://ipaudio4.com/wp-content/uploads/BIG/Fahrenheit%20451/01.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              },
+              {
+                "languageID": "1",
+                "name": "Part 2",
+                "url": "https://ipaudio4.com/wp-content/uploads/BIG/Fahrenheit%20451/02.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              },
+              {
+                "languageID": "1",
+                "name": "Part 3",
+                "url": "https://ipaudio4.com/wp-content/uploads/BIG/Fahrenheit%20451/03.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              },
+              {
+                "languageID": "1",
+                "name": "Part 4",
+                "url": "https://ipaudio4.com/wp-content/uploads/BIG/Fahrenheit%20451/04.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              },
+              {
+                "languageID": "1",
+                "name": "Part 5",
+                "url": "https://ipaudio4.com/wp-content/uploads/BIG/Fahrenheit%20451/05.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              },
+              {
+                "languageID": "1",
+                "name": "Part 6",
+                "url": "https://ipaudio4.com/wp-content/uploads/BIG/Fahrenheit%20451/06.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
