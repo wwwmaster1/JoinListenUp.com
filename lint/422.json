@@ -1,0 +1,459 @@
+{
+  "data": "jss",
+  "schema": "jssFeed_1.0",
+  "feed": {
+    "series": [
+      {
+        "name": "Frankenstein, or Modern Prometheus, by Mary Wollstonecraft Shelley",
+        "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+        "languageID": "1",
+        "tags": "Frankenstein, Mary Shelley,Audiobook",
+        "datatypeID": "4",
+        "credit": "LibriVox",
+        "summary":"Victor Frankenstein discovers the secret of animating lifeless matter and, by assembling body parts, creates the monster who has no name in the book. Rejected by society, the Monster vows revenge on his creator.",
+        "features": [
+          {
+            "name": "Frankenstein - Letters",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Letters",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_00_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapter 1",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapter 1",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_01_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapter 2",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapter 2",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_02_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapters 3,4",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapters 3,4",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_03_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapter 5",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapter 5",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_04_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapter 6",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapter 6",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_05_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapter 7",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapter 7",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_06_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapter 8",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapter 8",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_07_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapter 9",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapter 9",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_08_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapter 10",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapter 10",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_09_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapter 11",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapter 11",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_10_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapter 12",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapter 12",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_11_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapter 13",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapter 13",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_13_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapters 14,15",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapter 14",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_13_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapter 16",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapter 16",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_14_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapter 17",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapter 17",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_15_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapter 18",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapter 18",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_016_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapter 19",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapter 19",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_17_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapter 20",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapter 20",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_18_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapters 21,22",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapters 21,22",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_19_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapter 23",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapter 23",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_20_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          },
+          {
+            "name": "Frankenstein - Chapter 24",
+            "image": "https://ia600809.us.archive.org/19/items/frankenstein_shelley/Frankenstein_1109.jpg",
+            "languageID": "1",
+            "tags": "Frankenstein, Mary Shelley,Audiobook",
+            "datatypeID": "4",
+            "credit": "LibriVox",
+            "summary":"",
+            "assets": [
+              {
+                "languageID": "1",
+                "name": "Chapter 24",
+                "url": "https://archive.org/download/frankenstein_shelley/frankenstein_21_shelley_64kb.mp3",
+                "mediatype": "mp3",
+                "datatypeID": "4",
+                "duration": "",
+                "script": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
